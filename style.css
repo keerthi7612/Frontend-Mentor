@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.html {
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --drk-gray: hsl(0, 0%, 55%);
+  --vry-drk-gray: hsl(0, 0%, 41%);
+}
+
+/*----header----*/
+
+header {
+  position: relative;
+  height: 87.5vh;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-content {
+  width: 80%;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  position: relative;
+  color: hsl(0, 0%, 100%);
+}
+
+nav {
+  display: flex;
+  justify-items: space-between;
+  column-gap: 2em;
+  margin-top: -20px;
+  margin-left: 750px;
+  font-size: 1.22em;
+  font-family: "Josefin Sans", sans-serif;
+}
+a:link,
+a:visited {
+  position: relative;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.text-hero {
+  display: grid;
+  width: 600px;
+  position: relative;
+  color: hsl(0, 0%, 100%);
+  color: var(--white);
+  border: 2px solid var(--white);
+  font-size: 75px;
+  font-family: "Alata", sans-serif;
+  margin-top: 100px;
+}
+
+/*----Middle part----*/
+
+middle {
+  display: grid;
+  position: relative;
+}
+
+.sec-part {
+  position: relative;
+}
+.img2 {
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
+.content {
+  display: grid;
+  position: absolute;
+  width: 500px;
+  height: auto;
+  margin-left: 880px;
+  margin-top: -280px;
+  font-family: "Alata", sans-serif;
+}
+
+.content,
+.h2 {
+  font-size: 20px;
+  padding: 24px 30px;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.content,
+.p {
+  color: var(--black);
+  padding-left: 80px;
+  padding-right: 75px;
+}
+.creation-block {
+  margin-top: 100px;
+  margin-left: 300px;
+}
+h7 {
+  font-size: 30px;
+}
+p2 {
+  margin-left: 500px;
+  font-size: 20px;
+  border: 2px solid var(--black);
+}
+/*-----section ceration------*/
+
+#section_creation {
+  margin-top: 50px;
+  position: relative;
+  background-color: brown;
+  padding: 300px;
+}
+.row {
+  display: flex;
+  flex-grow: 1;
+  column-gap: 16px;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  display: block;
+  margin: auto;
+}
+
+.container {
+  margin-left: 0px;
+  position: relative;
+}
+.image-creation {
+  margin-left: 0px;
+  position: absolute;
+}
+.content-image {
+  position: absolute;
+  color: #fff;
+}
